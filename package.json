@@ -1,0 +1,22 @@
+{
+  "name": "cooperation",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "main": "webpack.config.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js --mode='production' --watch",
+    "serve": "webpack serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "file-loader": "^6.2.0",
+    "node-sass": "^5.0.0",
+    "path": "^0.12.7",
+    "sass-loader": "^11.0.1",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
